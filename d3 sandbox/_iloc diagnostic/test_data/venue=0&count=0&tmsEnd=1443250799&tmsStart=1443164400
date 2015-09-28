@@ -1,0 +1,1086 @@
+{
+ "items": [
+  {
+   "id": "6411092314030080",
+   "timestamp": 1443226683,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 72.19,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5997018811990016",
+   "timestamp": 1443226533,
+   "ven": 0,
+   "mtx": 33.514,
+   "mty": 48.914,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4768945928142848",
+   "timestamp": 1443226521,
+   "ven": 0,
+   "mtx": 33.234,
+   "mty": 40.323,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6239023039250432",
+   "timestamp": 1443226509,
+   "ven": 0,
+   "mtx": 30.255,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5983085938081792",
+   "timestamp": 1443226506,
+   "ven": 0,
+   "mtx": 30.255,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6598533276762112",
+   "timestamp": 1443226502,
+   "ven": 0,
+   "mtx": 28.651,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5808504107433984",
+   "timestamp": 1443226500,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5903873856241664",
+   "timestamp": 1443226497,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4857186031239168",
+   "timestamp": 1443226488,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4982315608440832",
+   "timestamp": 1443226485,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4632950083682304",
+   "timestamp": 1443226476,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6351151750447104",
+   "timestamp": 1443226473,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5439304423702528",
+   "timestamp": 1443226453,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6389690491994112",
+   "timestamp": 1443226451,
+   "ven": 0,
+   "mtx": 26.513,
+   "mty": 39.602,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4682604200591360",
+   "timestamp": 1443226447,
+   "ven": 0,
+   "mtx": 23.546,
+   "mty": 40.323,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5976231170277376",
+   "timestamp": 1443226442,
+   "ven": 0,
+   "mtx": 17.224,
+   "mty": 40.323,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5357970628018176",
+   "timestamp": 1443226435,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5113123132407808",
+   "timestamp": 1443226432,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6264560914792448",
+   "timestamp": 1443226420,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5472633369919488",
+   "timestamp": 1443226416,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5225251843604480",
+   "timestamp": 1443226404,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6035583323340800",
+   "timestamp": 1443226401,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5788201797025792",
+   "timestamp": 1443226389,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6002254377123840",
+   "timestamp": 1443226386,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6119000178163712",
+   "timestamp": 1443226374,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5285192407187456",
+   "timestamp": 1443226371,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.546,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5920920581439488",
+   "timestamp": 1443226368,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 36.483,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6673643664834560",
+   "timestamp": 1443226362,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 32.235,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6040526830698496",
+   "timestamp": 1443226358,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 26.924,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5138661007949824",
+   "timestamp": 1443226353,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 22.144,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4740560489283584",
+   "timestamp": 1443226348,
+   "ven": 0,
+   "mtx": 15.286,
+   "mty": 16.225,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4909683416498176",
+   "timestamp": 1443226343,
+   "ven": 0,
+   "mtx": 16.643,
+   "mty": 13.604,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5848142360608768",
+   "timestamp": 1443226338,
+   "ven": 0,
+   "mtx": 22.378,
+   "mty": 14.567,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5810131900039168",
+   "timestamp": 1443226333,
+   "ven": 0,
+   "mtx": 28.182,
+   "mty": 13.604,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6512191549210624",
+   "timestamp": 1443226329,
+   "ven": 0,
+   "mtx": 32.653,
+   "mty": 15.838,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4717664018628608",
+   "timestamp": 1443226319,
+   "ven": 0,
+   "mtx": 32.653,
+   "mty": 27.554,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6551829802385408",
+   "timestamp": 1443210785,
+   "ven": 0,
+   "mtx": 33.469,
+   "mty": 44.011,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6682804830076928",
+   "timestamp": 1443210781,
+   "ven": 0,
+   "mtx": 33.469,
+   "mty": 44.011,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5826740538572800",
+   "timestamp": 1443210779,
+   "ven": 0,
+   "mtx": 33.469,
+   "mty": 44.011,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4610152397275136",
+   "timestamp": 1443210775,
+   "ven": 0,
+   "mtx": 33.464,
+   "mty": 43.467,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5374244259102720",
+   "timestamp": 1443210772,
+   "ven": 0,
+   "mtx": 33.464,
+   "mty": 43.467,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4777973949399040",
+   "timestamp": 1443210768,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 44.104,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5340490111123456",
+   "timestamp": 1443210765,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 44.104,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6278493788700672",
+   "timestamp": 1443210763,
+   "ven": 0,
+   "mtx": 33.474,
+   "mty": 44.556,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4876354470281216",
+   "timestamp": 1443210759,
+   "ven": 0,
+   "mtx": 31.266,
+   "mty": 42.332,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5444247931060224",
+   "timestamp": 1443210754,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 45.164,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4700840631730176",
+   "timestamp": 1443210749,
+   "ven": 0,
+   "mtx": 35.747,
+   "mty": 49.604,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4936526962098176",
+   "timestamp": 1443210746,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 53.849,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5547743757991936",
+   "timestamp": 1443210700,
+   "ven": 0,
+   "mtx": 33.524,
+   "mty": 50.003,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4773112046419968",
+   "timestamp": 1443210693,
+   "ven": 0,
+   "mtx": 33.524,
+   "mty": 50.003,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6322001807409152",
+   "timestamp": 1443210625,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 59.814,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4850331263434752",
+   "timestamp": 1443210616,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5556904923234304",
+   "timestamp": 1443210613,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6616404635680768",
+   "timestamp": 1443210601,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6021641859497984",
+   "timestamp": 1443210598,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6278949055234048",
+   "timestamp": 1443210586,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5191158393208832",
+   "timestamp": 1443210583,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6343901845651456",
+   "timestamp": 1443210571,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5937194212524032",
+   "timestamp": 1443210569,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 64.152,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6491889238802432",
+   "timestamp": 1443210565,
+   "ven": 0,
+   "mtx": 37.233,
+   "mty": 66.863,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5903440064544768",
+   "timestamp": 1443210560,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 69.541,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4684231993196544",
+   "timestamp": 1443210555,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 75.36,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5490504728838144",
+   "timestamp": 1443210549,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 81.729,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4895741952655360",
+   "timestamp": 1443210546,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 84.379,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6229861874008064",
+   "timestamp": 1443210544,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 87.559,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6530427980349440",
+   "timestamp": 1443210540,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 87.361,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5218001938808832",
+   "timestamp": 1443210534,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 80.815,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6584003402399744",
+   "timestamp": 1443210529,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 76.997,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5386291642368000",
+   "timestamp": 1443210524,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 73.178,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6602699395039232",
+   "timestamp": 1443210521,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 69.36,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5123512658296832",
+   "timestamp": 1443210517,
+   "ven": 0,
+   "mtx": 31.237,
+   "mty": 66.633,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5365989331959808",
+   "timestamp": 1443210501,
+   "ven": 0,
+   "mtx": 35.22,
+   "mty": 54.813,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5429580617744384",
+   "timestamp": 1443210314,
+   "ven": 0,
+   "mtx": 30.971,
+   "mty": 30.278,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6119854876655616",
+   "timestamp": 1443210309,
+   "ven": 0,
+   "mtx": 30.893,
+   "mty": 35.551,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6053454682259456",
+   "timestamp": 1443210304,
+   "ven": 0,
+   "mtx": 27.233,
+   "mty": 40.323,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6547251367247872",
+   "timestamp": 1443210299,
+   "ven": 0,
+   "mtx": 21.439,
+   "mty": 40.323,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5153049148391424",
+   "timestamp": 1443210294,
+   "ven": 0,
+   "mtx": 19.332,
+   "mty": 40.323,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5754108346630144",
+   "timestamp": 1443210289,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 37.014,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6110693711413248",
+   "timestamp": 1443210284,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 32.766,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5686462611718144",
+   "timestamp": 1443210279,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 26.924,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6607561298018304",
+   "timestamp": 1443210274,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 24.269,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5992530571165696",
+   "timestamp": 1443210269,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 18.958,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6513819341815808",
+   "timestamp": 1443210267,
+   "ven": 0,
+   "mtx": 14.02,
+   "mty": 17.365,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5421351460405248",
+   "timestamp": 1443210261,
+   "ven": 0,
+   "mtx": 22.412,
+   "mty": 13.604,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6202395558150144",
+   "timestamp": 1443210255,
+   "ven": 0,
+   "mtx": 26.185,
+   "mty": 14.567,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4628208439787520",
+   "timestamp": 1443210250,
+   "ven": 0,
+   "mtx": 32.653,
+   "mty": 16.371,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5780951892230144",
+   "timestamp": 1443210225,
+   "ven": 0,
+   "mtx": 32.653,
+   "mty": 8.383,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6270354825674752",
+   "timestamp": 1443202268,
+   "ven": 0,
+   "mtx": 30.987,
+   "mty": 29.224,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4589643928436736",
+   "timestamp": 1443202264,
+   "ven": 0,
+   "mtx": 31.042,
+   "mty": 25.533,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5177216929366016",
+   "timestamp": 1443202263,
+   "ven": 0,
+   "mtx": 31.058,
+   "mty": 24.479,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6687258711162880",
+   "timestamp": 1443202258,
+   "ven": 0,
+   "mtx": 31.144,
+   "mty": 18.679,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6607127506321408",
+   "timestamp": 1443202253,
+   "ven": 0,
+   "mtx": 27.816,
+   "mty": 14.567,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6334929658970112",
+   "timestamp": 1443202248,
+   "ven": 0,
+   "mtx": 23.466,
+   "mty": 14.567,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6210856643723264",
+   "timestamp": 1443202243,
+   "ven": 0,
+   "mtx": 20.747,
+   "mty": 14.567,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6321224418328576",
+   "timestamp": 1443202242,
+   "ven": 0,
+   "mtx": 19.66,
+   "mty": 14.567,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6484639334006784",
+   "timestamp": 1443202238,
+   "ven": 0,
+   "mtx": 15.286,
+   "mty": 16.225,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6021053448978432",
+   "timestamp": 1443202237,
+   "ven": 0,
+   "mtx": 15.298,
+   "mty": 17.31,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6210414262091776",
+   "timestamp": 1443202234,
+   "ven": 0,
+   "mtx": 15.347,
+   "mty": 21.65,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6248953003638784",
+   "timestamp": 1443202230,
+   "ven": 0,
+   "mtx": 15.378,
+   "mty": 24.363,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5978262689808384",
+   "timestamp": 1443202226,
+   "ven": 0,
+   "mtx": 15.415,
+   "mty": 27.618,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4961996118163456",
+   "timestamp": 1443202196,
+   "ven": 0,
+   "mtx": 25.403,
+   "mty": 46.146,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6532906176479232",
+   "timestamp": 1443202195,
+   "ven": 0,
+   "mtx": 25.403,
+   "mty": 46.146,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5092769282392064",
+   "timestamp": 1443202191,
+   "ven": 0,
+   "mtx": 25.509,
+   "mty": 42.332,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5144454918832128",
+   "timestamp": 1443202190,
+   "ven": 0,
+   "mtx": 25.509,
+   "mty": 42.332,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5084514355249152",
+   "timestamp": 1443202186,
+   "ven": 0,
+   "mtx": 26.516,
+   "mty": 43.965,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5481227599478784",
+   "timestamp": 1443202185,
+   "ven": 0,
+   "mtx": 27.567,
+   "mty": 43.965,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5209029752127488",
+   "timestamp": 1443202180,
+   "ven": 0,
+   "mtx": 25.437,
+   "mty": 48.667,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5740166882787328",
+   "timestamp": 1443202176,
+   "ven": 0,
+   "mtx": 29.67,
+   "mty": 43.965,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5561358804320256",
+   "timestamp": 1443202175,
+   "ven": 0,
+   "mtx": 29.67,
+   "mty": 43.965,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4852362782965760",
+   "timestamp": 1443202173,
+   "ven": 0,
+   "mtx": 33.455,
+   "mty": 42.377,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5407006269636608",
+   "timestamp": 1443202170,
+   "ven": 0,
+   "mtx": 33.455,
+   "mty": 42.377,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5655719235813376",
+   "timestamp": 1443202163,
+   "ven": 0,
+   "mtx": 33.464,
+   "mty": 43.467,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4918711437754368",
+   "timestamp": 1443202160,
+   "ven": 0,
+   "mtx": 33.464,
+   "mty": 43.467,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "4585155687612416",
+   "timestamp": 1443202156,
+   "ven": 0,
+   "mtx": 33.474,
+   "mty": 44.556,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6689741202259968",
+   "timestamp": 1443202154,
+   "ven": 0,
+   "mtx": 33.455,
+   "mty": 42.377,
+   "unc": 4.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5771979705548800",
+   "timestamp": 1443202146,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 48.343,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "6124308757741568",
+   "timestamp": 1443202141,
+   "ven": 0,
+   "mtx": 33.573,
+   "mty": 55.451,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5123053096796160",
+   "timestamp": 1443202131,
+   "ven": 0,
+   "mtx": 35.22,
+   "mty": 62.449,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5543002114097152",
+   "timestamp": 1443202129,
+   "ven": 0,
+   "mtx": 35.22,
+   "mty": 62.994,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  },
+  {
+   "id": "5358739427164160",
+   "timestamp": 1443202111,
+   "ven": 0,
+   "mtx": 32.332,
+   "mty": 75.37,
+   "unc": 7.0,
+   "kind": "cphEndpoint#resourcesItem"
+  }
+ ],
+ "kind": "cphEndpoint#resources",
+ "etag": "\"Cn4IEIwDjxOMkTon9tPwqxytc4I/o5-NDif97o_7GKnXlwCb9tYVvVs\""
+}

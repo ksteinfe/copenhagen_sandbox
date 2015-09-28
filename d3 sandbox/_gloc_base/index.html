@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lillebrot Base Visualization</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/d3.min.js"></script>
+</head>
+<body>
+<div id="header_wrap"></div>
+<script type="text/javascript" src="js/LbDataDateDevice.js">// functions, globals, and UI to load data from the lillebrot server as Date->Device</script>
+        
+<div id="plot_wrap"></div>
+        
+<script type="text/javascript" src="js/myPlot.js">// your plot functions</script>
+<script type="text/javascript">
+var deviceActivityLoaded = function(){
+    console.log("data has loded... i'm ready to plot!");
+    doPlot(gCurrentDeviceData);  
+}
+</script>
+</body>
+</html> 

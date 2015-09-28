@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lillebrot ILoc Diagnostic Visualization</title>
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript" src="js/venueInfo.js"></script>
+    <script type="text/javascript" src="js/lillebrotData.js"></script>
+    <script type="text/javascript" src="js/lillebrotPViz.js"></script>
+    <script type="text/javascript">
+        // some globals here?
+        var venueId = 0;
+        var venueInfo = venueInfoArr[venueId];
+        var imgDim;
+        var img = new Image();
+        img.src = "img/"+venueInfo.img;
+        img.onload = function() {
+            //document.getElementById('plan_wrap').appendChild(img);
+            imgDim = [this.naturalWidth,this.naturalHeight];
+            document.getElementById('plan_wrap').setAttribute("style","display:block;width:"+imgDim[0]+"px; height:"+imgDim[1]+"px");
+            document.getElementById('plan_wrap').style.backgroundImage = 'url('+img.src+')';
+            document.getElementById('plan_wrap').style.width=imgDim[0]+"px";
+            document.getElementById('plan_wrap').style.height=imgDim[1]+"px";
+            
+            //console.log(imgDim);
+            
+            dateString="150925"
+            venue=0
+            count=0
+            timeoutDuration=120
+            lingerDistance=1.0
+            lingerDuration=30
+            
+            downloadPathsInfo(dateString,venue,count,timeoutDuration,lingerDistance,lingerDuration,function(){
+                //console.log(gPathsInfo);
+                console.log(gPathsInfo.tmsStart + " -> " + gPathsInfo.tmsEnd);
+                initPlanViz(); // now that gPathsInfo is loaded, we can initialize our plan visualization
+                
+                for (d in gPathsInfo.devices){
+                    vizDevice(gPathsInfo.devices[d])
+                }
+            });
+        }
+    </script>  
+</head>
+<body>
+<div id="plan_wrap"></div>
+
+    <script type="text/javascript">
+
+    </script>      
+</body>
+</html> 

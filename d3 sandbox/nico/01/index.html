@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Lillebrot GLoc Diagnostic Visualization</title>
+    
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7/leaflet.css" />
+    <link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.css' rel='stylesheet' />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.4/mapbox.js'></script>
+    
+    <style>
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+    }
+    body {
+        margin: 0;
+    }
+    #map {
+        width: 800px;
+        height: 500px;
+    }
+    </style>    
+    <style type="text/css">
+        .axis path, .axis line {
+            fill: none;
+            stroke: #ccc;
+            shape-rendering: crispEdges;
+        }
+        
+        .axis text{
+            font-size: 10px;
+            fill: #ccc;
+        }
+        
+        .grid-background {
+          fill: #ddd;
+        }
+
+        .grid line,
+        .grid path {
+          fill: none;
+          stroke: #fff;
+          shape-rendering: crispEdges;
+        }
+
+        .grid .minor.tick line {
+          stroke-opacity: .5;
+        }
+
+        .brush .extent {
+          stroke: #fff;
+          fill: yellow;
+          fill-opacity: 0.25;
+          shape-rendering: crispEdges;
+        }
+        
+    </style>
+    
+    <script type="text/javascript" src="js/d3.min.js"></script>
+    <script type="text/javascript">
+        var deviceIndex = 0; // the index (per day, in gDeviceMetas) of the device to be drawn
+        var tmsStart
+        var tmsEnd
+        var xScale
+        var yScale
+    </script>  
+</head>
+<body>
+    <div id="dropdowns">
+    <select id="date_list">
+        
+    </select>
+    <select id="device_list"></select>
+    </div>
+    <div id="map"></div>
+    <div id="control_wrap"></div>
+    <div id="timeline_wrap"></div>
+
+    <script type="text/javascript" src="js/lillebrotData.js"></script>
+    <script type="text/javascript" src="js/lillebrotTViz.js"></script>
+    <script type="text/javascript" src="js/lillebrotMViz.js"></script>
+    <script type="text/javascript" src="js/lillebrotControl.js"></script>  
+<script type="text/javascript">
+    
+    downloadLogDates(
+        function(){
+            //console.log(gLogDates);
+            var dropDown = d3.select("#date_list")
+                .attr("name", "date_list")
+                .on("change", dateMenuChanged);
+                    
+            var options = dropDown.selectAll("option")
+                .data(gLogDates).enter()
+                .append("option")
+                .text(function (d) { return d["date"].toLocaleDateString(); })
+                .attr("value", function (d) { return d["dateString"]; });
+                
+            function dateMenuChanged() {
+                d3.select("#device_list").selectAll("option").remove();
+                gCurrentDateString = d3.event.target.value;
+                console.log("loading dateString " + gCurrentDateString);
+                downloadDailyDeviceMetas(
+                    gCurrentDateString, 
+                    function(){
+                        //console.log(gDeviceMetas);
+                        visualizeControl();
+                        gCurrentDeviceMeta = gDeviceMetas[0];
+                        drawSelectedDevice(true);
+                        
+                        var dropDown = d3.select("#device_list")
+                            .attr("name", "device_list")
+                            .on("change", deviceMenuChanged);
+                                
+                        var options = dropDown.selectAll("option")
+                            .data(gDeviceMetas).enter()
+                            .append("option")
+                            .text(function (d) { return d.name; })
+                            .attr("value", function (d,i) { return i; });
+                            
+                        function deviceMenuChanged() {gCurrentDeviceMeta = gDeviceMetas[d3.event.target.value]; drawSelectedDevice(true);}
+                    }
+                );                
+            }
+        }
+    );
+    
+    var drawSelectedDevice = function(doDowload){
+        redraw = function(){
+            //console.log(gDeviceMetas);
+            visualizeDeviceTimeline(gCurrentDeviceData);
+            visualizeDeviceMap(gCurrentDeviceData, [tmsStart,tmsEnd] );
+        }
+        
+        if (doDowload){
+            //console.log(gDeviceMetas)
+            downloadDailyDeviceActivity(gCurrentDateString,gCurrentDeviceMeta,redraw);
+        } else {
+            redraw();
+        }
+    }
+    
+</script>
+</body>
+</html> 

@@ -1,0 +1,33 @@
+body {
+    background: #eef;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#header_wrap{
+    padding: 5px;
+    height: 25px;
+    background: #000;
+}
+
+
+#plot_wrap{
+    width: 100%;
+}
+
+.plot_canvas{
+    display: block;
+    margin: auto;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges;
+}
+
+.axis text{
+    font-size: 10px;
+    fill: #ccc;
+}

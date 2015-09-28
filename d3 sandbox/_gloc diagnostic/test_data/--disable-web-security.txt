@@ -1,0 +1,1 @@
+If you're using Chrome, you could try running it with --disable-web-security. –  Lars Kotthoff Jun 20 '13 at 14:05

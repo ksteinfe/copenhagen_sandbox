@@ -1,0 +1,54 @@
+{
+    "tmsEnd": 1442386799,
+    "tmsStart": 1442300400,
+    "devices": [
+        {
+            "VentCount": 100,
+            "name": "andrei",
+            "hasLog": true,
+            "GLocCount": 42,
+            "ILocCount": 0,
+            "deviceId": "4362d755eba4b9e1"
+        },
+        {
+            "VentCount": 0,
+            "name": "Unnamed Device",
+            "hasLog": false,
+            "GLocCount": 0,
+            "ILocCount": 0,
+            "deviceId": "ce39fa532702076"
+        },
+        {
+            "VentCount": 0,
+            "name": "Scotttest3",
+            "hasLog": false,
+            "GLocCount": 0,
+            "ILocCount": 0,
+            "deviceId": "95388ef372cee5df"
+        },
+        {
+            "VentCount": 66,
+            "name": "ksteinfe",
+            "hasLog": true,
+            "GLocCount": 105,
+            "ILocCount": 0,
+            "deviceId": "7d6c33c1b2e032ad"
+        },
+        {
+            "VentCount": 0,
+            "name": "Unnamed Device",
+            "hasLog": false,
+            "GLocCount": 0,
+            "ILocCount": 0,
+            "deviceId": "bc34bed8a9d21b02"
+        },
+        {
+            "VentCount": 0,
+            "name": "Unnamed Device",
+            "hasLog": false,
+            "GLocCount": 0,
+            "ILocCount": 0,
+            "deviceId": "FAKE"
+        }
+    ]
+}
