@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>MapDraw</title>
+	<script type="text/javascript" src="js/processing.js"></script>
+    
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+    <script src='https://api.mapbox.com/mapbox.js/v2.2.2/mapbox.js'></script>
+</head>
+<body>
+
+<div id="map" style="height: 480px; width: 640px;"></div>
+<script type="text/javascript">
+    L.mapbox.accessToken = 'pk.eyJ1Ijoia3N0ZWluZmUiLCJhIjoiUldaU1R0dyJ9.31_yW6Bb0PmCN6KL9PMJPA';
+    var map = L.mapbox.map('map','mapbox.streets',{zoomControl: false}).setView([55.679, 12.586], 13);
+    // Disable drag and zoom handlers.
+    map.dragging.disable();
+    map.touchZoom.disable();
+    map.doubleClickZoom.disable();
+    map.scrollWheelZoom.disable();
+    if (map.tap) map.tap.disable();    
+    
+    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+        attribution: '',
+        maxZoom: 18,
+        id: 'ksteinfe.nih699b7',
+        accessToken: 'pk.eyJ1Ijoia3N0ZWluZmUiLCJhIjoiUldaU1R0dyJ9.31_yW6Bb0PmCN6KL9PMJPA'
+    }).addTo(map);
+    
+    
+
+</script>  
+
+<canvas id="myCanvas" width="200" height="200" style="position: relative;
+    top: -480px;"></canvas>
+    
+<script type="text/processing" data-processing-target="myCanvas">
+
+void setup() {
+  size(640, 480);
+}
+
+void draw() {
+    background(255,0,0,50);
+    ellipse( 200, 200, 40, 40 );
+}
+
+</script>
+
+
+
+</body>
+</html>
